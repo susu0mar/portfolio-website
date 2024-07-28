@@ -1852,7 +1852,7 @@ input, select, textarea {
 	}
 
 		.image:before {
-			background: url("images/overlay.png");
+			/*background: url("images/overlay.png"); */
 			content: '';
 			height: 100%;
 			left: 0;
@@ -1871,6 +1871,7 @@ input, select, textarea {
 			}
 
 		.image.featured {
+			background: none;
 			display: block;
 			margin: 0 0 2em 0;
 		}
@@ -1934,12 +1935,12 @@ input, select, textarea {
 				top: -0.2em;
 			}
 
-			.icon.circle.fa-twitter {
+			.icon.circle.fa-linkedin {
 				background: #70aecd;
 				color: #fff;
 			}
 
-				.icon.circle.fa-twitter:hover {
+				.icon.circle.fa-linkedin:hover {
 					background: #7fb7d2;
 				}
 
